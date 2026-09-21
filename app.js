@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('<h1>Hello from Jenkins on AWS!</h1><p>Version 1.0</p>');
+  res.send('<h1>Hello from Jenkins on AWS!</h1><p>Version 2.0</p>');
 });
 
 app.get('/health', (req, res) => {
